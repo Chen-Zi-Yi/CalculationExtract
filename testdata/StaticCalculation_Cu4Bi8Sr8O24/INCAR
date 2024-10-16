@@ -1,0 +1,28 @@
+# Basic
+PREC = Accurate
+#ISPIN = 1
+
+# Initialization
+ISTART = 0
+ICHARG = 2
+
+# Electronic relaxation
+NELMIN = 5
+NELM = 200
+ALGO = Normal
+EDIFF = 0.00001
+
+# Ionic relaxation
+IBRION = -1
+#ISIF = 3
+#NSW = 500
+#EDIFFG = -0.03
+
+# Density of states related
+ISMEAR = -5
+#SIGMA = 0.02
+
+# Output
+#LCHARG = .FALSE.
+LWAVE = .FALSE.
+LAECHG = .TRUE.
